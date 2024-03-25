@@ -1,4 +1,3 @@
-
 interface User {
   gender: string;
   name: { title: string; first: string; last: string };
@@ -26,18 +25,18 @@ const Teams = async () => {
   const { results: resultspt }: RandomUserResponse = await responsept.json();
 
   return (
-    <main className="container mb-10 m-10">
-      <h1 className="text-5xl m-10 text-center md:text-left font-bold">Our Team</h1>
+    <main className="container m-5 mb-10">
+      <h1 className="m-10 text-center text-5xl font-bold md:text-left">Team</h1>
 
-      <div className="justify-center lg:flex flex-rows gap-12 mt-10">
+      <div className="flex-rows mt-10  justify-center gap-12 lg:flex">
         <div className="mb-8 lg:mb-0">
-          <h1 className="text-xl font-semibold mb-2">Founder</h1>
+          <h1 className="mb-2 text-xl font-semibold">Founder</h1>
           {results.map((item) => {
             return (
               <div>
                 <img
                   src={item.picture.large}
-                  className="w-16 h-16 rounded-full mr-4"
+                  className="mr-4 h-16 w-16 rounded-full"
                 />
                 <p>
                   {item.name.first} - {item.phone}
@@ -48,13 +47,13 @@ const Teams = async () => {
         </div>
 
         <div className="mb-8 lg:mb-0">
-          <h1 className="text-xl font-semibold mb-2">Manager</h1>
+          <h1 className="mb-2 text-xl font-semibold">Manager</h1>
           {resultsmg.map((itemmg) => {
             return (
               <div>
                 <img
                   src={itemmg.picture.large}
-                  className="w-16 h-16 rounded-full mr-4"
+                  className="mr-4 h-16 w-16 rounded-full"
                 />
                 <p>
                   {itemmg.name.first} - {itemmg.phone}
@@ -65,13 +64,13 @@ const Teams = async () => {
         </div>
 
         <div className="mb-8 lg:mb-0">
-          <h1 className="text-xl font-semibold mb-2">Marketing Staff</h1>
+          <h1 className="mb-2 text-xl font-semibold">Marketing Staff</h1>
           {resultsmk.map((itemmk) => {
             return (
               <div>
                 <img
                   src={itemmk.picture.large}
-                  className="w-16 h-16 rounded-full mr-4"
+                  className="mr-4 h-16 w-16 rounded-full"
                 />
                 <p>
                   {itemmk.name.first} - {itemmk.phone}
@@ -82,13 +81,13 @@ const Teams = async () => {
         </div>
 
         <div className="mb-8 lg:mb-0">
-          <h1 className="text-xl font-semibold mb-2">Production Staff</h1>
+          <h1 className="mb-2 text-xl font-semibold">Production Staff</h1>
           {resultspt.map((itempt) => {
             return (
               <div>
                 <img
                   src={itempt.picture.large}
-                  className="w-16 h-16 rounded-full mr-4"
+                  className="mr-4 h-16 w-16 rounded-full"
                 />
                 <p>
                   {itempt.name.first} - {itempt.phone}
