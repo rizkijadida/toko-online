@@ -98,7 +98,7 @@ const AboutUS = () => {
             </Card>
           </div>
 
-          {/* Franky */}
+          {/* Frankyy */}
           <div>
             <Card className="w-[350px]">
               <CardContent className="p-4 ">
@@ -106,7 +106,7 @@ const AboutUS = () => {
                   src="/franky.avif"
                   width={500}
                   height={20}
-                  alt=""
+                  alt="franky"
                   className="items-center w-[310px] h-[300px]"
                 ></Image>
               </CardContent>
