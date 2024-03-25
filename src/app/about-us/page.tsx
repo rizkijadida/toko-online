@@ -35,13 +35,13 @@ const AboutUS = () => {
 
       {/* teams */}
       <div>
-        <div className="md:flex justify-center md:space-x-6 md:m-16 space-y-10 md:space-y-0 mt-10">
+        <div className="md:flex  justify-center md:space-x-6 md:m-16 space-y-10 md:space-y-0 mt-10">
           {/* Chopper */}
           <div>
             <Card className="w-[350px]">
               <CardContent className="p-4 ">
                 <Image
-                  src="/chopper.jpeg"
+                  src="/chopper.avif"
                   width={500}
                   height={20}
                   alt=""
@@ -60,7 +60,7 @@ const AboutUS = () => {
             <Card className="w-[350px]">
               <CardContent className="p-4 ">
                 <Image
-                  src="/nami.jpeg"
+                  src="/nami.avif"
                   width={500}
                   height={20}
                   alt=""
@@ -83,7 +83,7 @@ const AboutUS = () => {
             <Card className="w-[350px]">
               <CardContent className="p-4 ">
                 <Image
-                  src="/usopp.jpeg"
+                  src="/usopp.avif"
                   width={500}
                   height={20}
                   alt=""
@@ -103,7 +103,7 @@ const AboutUS = () => {
             <Card className="w-[350px]">
               <CardContent className="p-4 ">
                 <Image
-                  src="/franky.jpeg"
+                  src="/franky.avif"
                   width={500}
                   height={20}
                   alt=""

@@ -13,13 +13,13 @@ import { FaStar } from "react-icons/fa6";
 const ProductsOrServices = () => {
   return (
     <div>
-      <div className="ml-5 mt-28 justify-center md:m-16 space-y-10 md:space-y-0 md:mt-0 md:flex md:space-x-6">
+      <div className="ml-5 mt-28 justify-center space-y-10 md:m-16 md:mt-0 md:flex md:space-x-6 md:space-y-0">
         {/* shirt */}
         <div>
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/shirt.jpg"
+                src="/shirt.avif"
                 width={500}
                 height={20}
                 alt=""
@@ -48,7 +48,7 @@ const ProductsOrServices = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/jeans.jpg"
+                src="/jeans.avif"
                 width={500}
                 height={20}
                 alt=""
@@ -77,7 +77,7 @@ const ProductsOrServices = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/shoes.jpg"
+                src="/shoes.avif"
                 width={500}
                 height={20}
                 alt=""

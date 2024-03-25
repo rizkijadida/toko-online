@@ -10,7 +10,7 @@ const Homepage = () => {
       <div className="mt-5 grid grid-cols-3">
         <div className="col-span-2">
           <Image
-            src="/homepage.jpg"
+            src="/homepage.avif"
             alt=""
             width={1000}
             height={100}
@@ -19,11 +19,11 @@ const Homepage = () => {
         </div>
         <div>
           <Image
-            src="/ramadhan.png"
+            src="/ramadhan.avif"
             alt=""
-            className=" h-[173px] w-[500px] md:h-[563px]"
-            width={500}
-            height={10}
+            className=" h-[173px] w-[500px] md:h-[561px]"
+            width={1000}
+            height={200}
           />
         </div>
       </div>

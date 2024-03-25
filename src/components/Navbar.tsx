@@ -9,11 +9,11 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav > 
       <div className="flex-cols-3 mx-auto my-auto flex justify-between shadow-md md:p-8 md:px-12">
         <Link href="/">
           <div className="ml-4 mt-14 h-10 w-10 rounded md:mt-0 md:h-[80px] md:w-[80px]">
-            <Image src="/logobrand.png" alt="logo" width={80} height={80} />
+            <Image src="/logobrand.avif" alt="logo" width={80} height={80} />
           </div>
         </Link>
         <div className="spcace-x-2 mx-auto my-auto  justify-center font-bold md:flex md:space-x-10">

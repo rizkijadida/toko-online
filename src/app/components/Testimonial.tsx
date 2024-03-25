@@ -14,7 +14,7 @@ const Testimonial = () => {
   return (
     <div>
       <div className="m-16 text-4xl font-bold">
-        <h1>TESTIOMONIAL</h1>
+        <h1>TESTIMONIAL</h1>
       </div>
       <div className="mb-14 ml-5 mt-28 justify-center space-y-10 md:m-16 md:mt-0 md:flex md:space-x-6 md:space-y-0">
         {/* zoro */}
@@ -22,7 +22,7 @@ const Testimonial = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/zoro.jpeg"
+                src="/zoro.avif"
                 width={500}
                 height={20}
                 alt=""
@@ -50,7 +50,7 @@ const Testimonial = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/luffy.jpeg"
+                src="/luffy.avif"
                 width={500}
                 height={20}
                 alt=""
@@ -77,7 +77,7 @@ const Testimonial = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/sanji.jpeg"
+                src="/sanji.avif"
                 width={500}
                 height={20}
                 alt=""

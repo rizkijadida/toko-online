@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/bgTagline.jpg')",
+        'hero-pattern': "url('/bgTagline.avif')",
         'footer-texture': "url('/img/footer-texture.png')",
       },
       colors: {
