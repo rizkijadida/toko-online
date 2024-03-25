@@ -9,7 +9,7 @@ const ProductsOrServices = () => {
     <div>
       <div className="md:mt-28 ml-5 mt-10 justify-center md:m-16 space-y-10 md:space-y-0 md:flex md:space-x-6 mb-10">
         
-        {/* shirt */}
+        {/* shirtt */}
         <div>
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
