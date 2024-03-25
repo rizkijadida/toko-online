@@ -14,7 +14,7 @@ const ProductsOrServices = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/shirt.jpg"
+                src="/shirt.avif"
                 width={500}
                 height={20}
                 alt=""
@@ -43,7 +43,7 @@ const ProductsOrServices = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/jeans.jpg"
+                src="/jeans.avif"
                 width={500}
                 height={20}
                 alt=""
@@ -72,7 +72,7 @@ const ProductsOrServices = () => {
           <Card className="w-[350px]">
             <CardContent className="p-4 ">
               <Image
-                src="/shoes.jpg"
+                src="/shoes.avif"
                 width={500}
                 height={20}
                 alt=""
